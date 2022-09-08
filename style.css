@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+  color: blue;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    color: blue;
+    background-color: blueviolet;
+
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(129, 15, 49);
+    height: 500px;
+  }
+
+  .side-menu{
+     background-color: antiquewhite;
+  }
+.item-menu{
+    padding: 15px 40px;
+    cursor: pointer;
+    transition: all 0,2s ease-in-out;
+
+}
+.item-menu:hover{
+    background-color: brown;
+    color: beige;
+}
