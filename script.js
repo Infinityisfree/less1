@@ -40,11 +40,11 @@ function Concat (e) {
     // content[0].innerText = e.target.innerText;
 switch(e.target.innerText){
     case 'Пункт 1':
-    content[0].innerText = "Anna Korenina"
+         content[0].innerText = "Anna Korenina"
     break;
     case 'Пункт 2':
-    content[0].innerText = "Ivan Dyrak"
-    break;
+        content[0].innerText = "Ivan Dyrak"
+        break;
     case 'Пункт 3':
         content[0].innerText = "Voina Mirov"
         break;
@@ -52,10 +52,23 @@ switch(e.target.innerText){
         content[0].innerText = "Zvezdnue Voinu"
         break;
     case 'Пункт 5':
-        content[0].innerText = "ooooo"
+        content[0].innerText = "WAR STARS"
          break;
+    case 'Пункт 6':
+        content[0].innerText = "DONT KNOW"
+        break;
+    case 'Пункт 7':
+         content[0].innerText = "DONna"
+         break;  
+     case 'Пункт 8':
+         content[0].innerHTML = '<img src= ./img/halloween.png>'
+         break;  
+         default:
+            content[0].innerText = 'Not found';
+
 }
 }
+console.log (content);
 
 }
 )
